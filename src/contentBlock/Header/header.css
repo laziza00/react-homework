@@ -1,0 +1,68 @@
+.header {
+    margin: 0 0 15px 0;
+}
+.header__inner {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img-logo {
+    width: 150px;
+    height: 40px;
+}
+.header__input-box {
+    display: flex;
+}
+.header__input {
+    width: 500px;
+    height: 40px;
+    border: 1px solid rgb(211, 206, 206);
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+}
+.header__input input {
+    border: none;
+    width: 90%;
+    padding: 7px 5px;
+    outline: none;
+}
+.header__input i {
+    color: rgb(211, 206, 206);
+    font-size: 22px;
+}
+.header__input input::placeholder {
+    color: rgb(180, 179, 179);
+    font-size: 17px;
+}
+select {
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid rgb(211, 206, 206);
+    background-color: #fff;
+    outline: none;
+    color: rgb(180, 179, 179);
+}
+select option{
+    color: rgb(180, 179, 179);
+    font-size: 17px;
+}
+.header__btn-box {
+    display: flex;
+}
+.header__btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    color: rgb(55, 167, 219);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.header__btn i{
+    font-size: 22px;
+    color: rgb(55, 167, 219);
+    margin: 0 3px;
+}
