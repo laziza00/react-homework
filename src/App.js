@@ -4,6 +4,8 @@ import Header from './contentBlock/Header/header'
 import Navbar from './contentBlock/Navbar/navbar'
 import Hero from './contentBlock/Hero/hero'
 import Over from './contentBlock/Over/over'
+import Footer from './contentBlock/Footer/footer'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
         <Over></Over>
+        <Footer></Footer>
     </div>
   );
 }

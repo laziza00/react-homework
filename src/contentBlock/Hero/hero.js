@@ -91,7 +91,7 @@ class Hero extends Component {
                             <button  className='hero__enc' onClick= {() =>this.encrement()}><i className='bx bx-chevron-up'></i></button>
                             <button  className='hero__enc' onClick= {() =>this.decrement()}><i className='bx bx-chevron-down'></i></button>
                         </div>
-                            <button className='hero__num-btn' onClick={this.increament}>
+                            <button className='hero__num-btn' >
                             <i className='bx bx-cart-add' ></i> 
                             Add to cart
                             </button>

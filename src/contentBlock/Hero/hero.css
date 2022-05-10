@@ -5,7 +5,7 @@
     align-items: center;
 }
 .hero__img-box {
-    padding: 0 20px;
+    padding: 0 10px;
     width: 33%;
 }
 .hero__img {
@@ -28,11 +28,11 @@
     height: 45px;
 }
 .hero__main-box {
-    padding: 0 20px;
+    padding: 0 10px;
     width: 33%;
 }
 .hero__info-box {
-    padding: 0 40px;
+    padding: 0 10px;
     width: 33%;
 }
 .hero__text-title {
@@ -53,7 +53,7 @@
 }
 .hero__text-box {
     display: flex;
-    align-items: center;
+    align-items: center !important;
     margin: 0 0 15px 0;
 }
 .hero__text-size {
@@ -149,15 +149,15 @@ hr {
 
 .hero__list {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
+    flex-wrap: wrap;
+ 
     list-style-type: none;
 }
 .hero__item {
     border: 1px solid rgb(212, 208, 208);
     border-radius: 5px;
     margin: 8px;
-    width: 70%;
+    width: 40%;
 }
 .hero__pallet-box {
     padding:10px;
